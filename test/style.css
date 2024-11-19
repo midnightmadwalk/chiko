@@ -1,0 +1,74 @@
+.token-card {
+    background-color: #202544;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    color: #b6bef2;
+  }
+  
+  .token-card h3 {
+    font-family: "Merriweather", serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .token-card img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+    border-radius: 50%;
+  }
+  
+  .token-details {
+    margin-left: 60px;
+  }
+  
+  .token-actions a {
+    display: inline-block;
+    background-color: #ff529b;
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .token-actions a:hover {
+    background-color: #e04386;
+  }
+
+  #filter-container {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #filter-container label {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    color: #b6bef2;
+    margin-right: 10px;
+  }
+  
+  #ecosystem-filter {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #b6bef2;
+    background-color: #202544;
+    color: #b6bef2;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 16px;
+  }
+  
+  #ecosystem-filter:focus {
+    outline: none;
+    border-color: #ff529b;
+  }
+  
+  #ecosystem-container {
+    margin-top: 20px;
+  }
+  
+  
